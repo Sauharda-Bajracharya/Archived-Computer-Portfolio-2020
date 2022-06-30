@@ -1,0 +1,48 @@
+#work{
+
+    margin-top: 20px;
+    padding-left: 150px;
+    font-size: 16px;
+    color: #969892;
+
+}
+
+.wrkt{
+
+    margin-top: 10px;
+    color: #f0f8ff;
+    padding-left: 150px;
+}
+
+.os{
+
+    padding-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio, .dp, .yunana{
+
+    margin-top: 50px;
+
+}
+
+.portfoliotext, .dptext, .yunanatext, .tabletext, .soontext{
+    
+    display: flex;
+    justify-content: center;
+    color: #f0f8ff;
+    font-size: 30px;
+
+}
+
+.inf1, .inf2, .inf3, .inf4, .inf5{
+    
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 15px;
+    transition: 5s;
+}
+

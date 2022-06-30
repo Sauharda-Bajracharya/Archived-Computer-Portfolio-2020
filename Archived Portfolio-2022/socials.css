@@ -1,0 +1,143 @@
+#socials{
+
+    font-size: 16px;
+    color: #969892;
+    margin-top: 150px;
+    padding-left: 150px;
+}
+
+.find{
+
+    color: aliceblue;
+    padding-left: 150px;
+}
+
+.s3{
+    margin-top: 50px;
+    padding-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.instagram{
+
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+
+}
+
+.facebook{
+
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.twitter{
+
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.s4{
+
+    margin-top: 6rem;
+    padding-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.github{
+
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.pintrest{
+
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.steam{
+
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+#insta{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#facebook{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#twitter{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#github{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pintrest{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#steam{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

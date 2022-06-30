@@ -1,0 +1,120 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+
+    background-color: #030303;
+    color: aliceblue;
+    font-family: quicksand;
+}
+
+.intro {
+
+    margin-top: 250px;
+    padding-left: 150px;
+  }
+  
+  .intro .hi {
+    color: aliceblue;
+    font-size: 15px;
+  }
+  
+  .intro .name {
+
+    padding-top: 5.5px;
+    font-size: 27px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    background: #020024;
+    background-color: #e899dc;
+    background-image: linear-gradient(315deg, #e899dc 0%, #d387ab 74%);
+    background-size: 300% 300%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: gradient 10s linear infinite;
+            animation: gradient 10s linear infinite;
+  }
+  
+  @-webkit-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .intro .abt {
+
+    padding-top: 5.5px;
+    font-size: 15px;
+    color: #33CCCC;
+  }
+  
+  .intro .from {
+    padding-top: 7px;
+    font-size: 13px;
+    color: #969892;
+    padding-bottom: 20px;
+  }
+  
+  .know {
+  
+    border-radius: 25px;
+    padding: 6px;
+    color: #030303;
+    background: #33CCCC;
+    text-decoration: none;
+
+  }
+
+::selection{
+    
+    background: #b3d4fc;
+}
+
+::-webkit-scrollbar{
+
+    width: 7px;
+    background-color: #040404;
+    color: #fad0c4;
+}
+
+::-webkit-scrollbar-track{
+
+    width: 10px;
+    background-color: #040404;
+}
+
+::-webkit-scrollbar-thumb{
+
+    width: 7px;
+    border-radius: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg,  #ff9a9e, #fad0c4);
+}
+
+.name::selection{
+
+    background-color: transparent;
+}
+

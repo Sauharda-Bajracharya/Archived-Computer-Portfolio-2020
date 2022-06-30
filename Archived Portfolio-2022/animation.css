@@ -1,0 +1,49 @@
+/* @keyframes rgb{
+
+    from{
+
+        filter: hue-rotate(0deg);
+    }
+
+    to{
+
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+.tri1{
+
+    animation: rgb 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+.tri2{
+
+    animation: rgb 16s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.tri3{
+
+    animation: rgb 12s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.tri4{
+
+    animation: rgb 19s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.tri5{
+
+    animation: rgb 23s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} */

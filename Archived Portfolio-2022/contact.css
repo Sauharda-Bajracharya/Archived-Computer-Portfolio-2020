@@ -1,0 +1,67 @@
+#contact{
+
+    font-size: 16px;
+    color: #969892;
+    margin-top: 20rem;
+    padding-left: 150px;
+
+}
+
+.talk{
+
+    color: aliceblue;
+    margin-top: 10px;
+    padding-left: 150px;
+
+}
+
+.email{
+
+    margin-top: 30px;
+    padding-left: 150px;
+    font-size: 18px;
+    color: #969892;
+
+}
+
+.email-no{
+
+    position: absolute;
+    margin-top: 5px;
+    padding-left: 150px;
+    font-size: 27px;
+    color: aliceblue;
+    transition: .5s;
+}
+
+.email-no:hover{
+
+    color: pink;
+}
+
+.space{
+
+    padding: 70px;
+}
+
+.email-no::before{
+
+    content: '';
+    position: absolute;
+    left: 9.4rem;
+    right: -2px;
+    bottom: 0;
+    height: 2px;
+    background-color: aliceblue;
+    transition: transform .5s ease-in-out;
+    transform: scaleX(0);
+    transition: .5s;
+    transform-origin: left;
+}
+  
+.email-no:hover::before,
+.email-no:focus::before{
+
+    transform: scaleX(1);
+    transform-origin: left;
+}

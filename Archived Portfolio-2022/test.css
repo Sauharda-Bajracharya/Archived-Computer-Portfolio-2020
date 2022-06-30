@@ -1,0 +1,148 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.hamburger-menu{
+
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+
+}
+
+.bar{
+  width: 1.89rem;
+  height: 2.5px;
+  background-color: #eee;
+  transition: 0.5s;
+  position: relative;
+}
+.bar:before, .bar:after{
+  content: '';
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background-color: #eee;
+  transition: 0.5s;
+}
+
+.bar:before {
+  transform: translateY(-9px);
+}
+
+.bar:after {
+  transform: translateY(9px);
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  left: 0;
+  z-index: 5;
+  overflow: hidden;
+  transform-origin: center;
+  transition: 0.5s;
+}
+
+header {
+  background-color: #030303;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.container.active .bar {
+  transform: rotate(360deg);
+  background-color: transparent;
+}
+
+.container.active .bar:before {
+  transform: translateY(0) rotate(45deg);
+}
+
+.container.active .bar:after {
+  transform: translateY(0) rotate(-45deg);
+}
+
+.container.active .main {
+  animation: main-animation 0.5s ease;
+  cursor: pointer;
+  transform: perspective(1500px) rotateY(0deg) rotateX(0deg) translateZ(100px) scale(0);
+}
+
+@keyframes main-animation {
+  from {
+    transform: translate(0);
+  }
+
+  to {
+    transform: perspective(1500px) rotateY(0deg) rotateX(0deg) translateZ(100px) scale(0);
+  }
+}
+
+.links {
+  width: 30%;
+  height: 100vh;
+  z-index: 2;
+  position: absolute;
+  top: 90%;
+  left: 60%;
+  transform: translate(-50% ,-50%);
+}
+
+ul {
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: #eee;
+  padding: 0.7rem 0;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: hide 0.5s forwards ease;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.links a:hover {
+  color: #eee;
+  top: -5px;
+}
+
+.container.active .links a {
+  animation: appear 0.5s forwards ease var(--i);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(1px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

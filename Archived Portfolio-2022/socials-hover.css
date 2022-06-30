@@ -1,0 +1,65 @@
+.instagram{
+
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.facebook{
+
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.twitter{
+
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.github{
+
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.pintrest{
+
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.steam{
+
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.instagram:hover{
+
+    color: pink;
+}
+
+.facebook:hover{
+
+    color: pink;
+}
+
+.twitter:hover{
+
+    color: pink;
+}
+
+.github:hover{
+
+    color: pink;
+}
+
+.pintrest:hover{
+
+    color: pink;
+}
+
+.steam:hover{
+
+    color: pink;
+}
